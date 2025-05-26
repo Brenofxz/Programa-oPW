@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrar - Escola de Línguas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Menu de navegação -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="cursos.html">Cursos</a></li>
+            <li><a href="metodologia.html">Metodologia</a></li>
+            <li><a href="professores.html">Professores</a></li>
+            <li>
+                <a href="#">Entrar</a>
+                <ul class="submenu">
+                    <li><a href="registrar.html">Registrar-se</a></li>
+                    <li><a href="login.html">Entrar</a></li>
+                </ul>
+            </li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Registrar-se</h1>
+            <p>Crie sua conta para começar a aprender uma nova língua!</p>
+        </div>
+    </header>
+
+    <div class="form-container">
+        <form action="submit_registration.php" method="POST">
+            <div class="form-group">
+                <label for="nome">Nome Completo:</label>
+                <input type="text" id="nome" name="nome" required>
+            </div>
+            <div class="form-group">
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="senha">Senha:</label>
+                <input type="password" id="senha" name="senha" required>
+            </div>
+            <div class="form-group">
+                <label for="confirmar_senha">Confirmar Senha:</label>
+                <input type="password" id="confirmar_senha" name="confirmar_senha" required>
+            </div>
+            <button type="submit" class="btn-destaque">Registrar</button>
+        </form>
+    </div>
+
+    <div class="chamada-agendamento">
+        <p>Já tem uma conta? <a href="login.html">Entre aqui</a>.</p>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Escola de Línguas. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
