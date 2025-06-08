@@ -26,14 +26,3 @@ Aulas gravadas acessíveis aos alunos.
 * Cadastro e Login: Cadastro de alunos com e-mail e senha.
 Opção de recuperação de senha.
 Possibilidade de excluir dados pessoais.
-
-* Descontos: Desconto de até 40% para estudantes de escolas públicas (com comprovação).
-Acompanhamento de Desempenho:
-
-* Visualização do progresso do aluno.
-Relatórios de resultados e aproveitamento das aulas.
-
-* Comunidade de Aprendizado: Fórum para interações entre alunos.
-Grupos de estudo e espaço para tirar dúvidas.
-
-* Certificação: Certificado digital de conclusão disponível após o término do curso.
