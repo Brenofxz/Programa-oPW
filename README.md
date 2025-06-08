@@ -26,3 +26,7 @@ Aulas gravadas acessíveis aos alunos.
 * Cadastro e Login: Cadastro de alunos com e-mail e senha.
 Opção de recuperação de senha.
 Possibilidade de excluir dados pessoais.
+
+* Videoaulas de cada lingua que estiver dsponivel no curso dentro da pagina.
+
+* Numero de contato dentro da pagina para contatar o admin.
